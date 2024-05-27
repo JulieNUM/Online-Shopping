@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Salmon</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/p3_8623.css" />
+		<link rel="stylesheet" href="../css/p2_p3_general.css"/>
+	</head>
+	<body>
+		<!-- part_1: header -->
+		<div id="header">
+			<div class="container">
+				<div class="header_left fleft">
+					<div class="tel">Welcome to Food Store!</div>
+					<span id="state" />
+				</div>
+				<ul class="fright">
+					<li><a href="../login_6002.html">Login</a></li>
+					<li><a href="../regist_6002.html">Sign up</a></li>
+					<li><a href="../backStore_7808.html">Account</a></li>
+					<li class="sc"><span></span><a href="../shopcart_8623.html">Shop cart</a></li>
+				<ul>
+			</div>
+		</div>
+		<!-- part_2: banner -->
+		<div id="banner">
+			<div class="container">
+				<form>
+					<input type="text" class="sbar" placeholder="Search what you want ..." />
+					<input type="submit" value="Search" class="sbtn" />
+				</form>
+			</div>
+		</div>
+		<!-- part_3: navigate bar -->
+		<div id="nav">
+			<div class="container">
+				<ul class="nag">
+					<li class="first">
+						<a href="#">AISLES</a>
+						<ul class="dropdown">
+							<li><a href="../fruit_6002.html">Fruits</a></li>
+							<li><a href="../vegetable_9518.html">Vegetables</a></li>
+							<li><a href="../bakery_7808.html">Bakery</a></li>
+							<li><a href="../Dairy_&_Eggs_5067.html">Dairy & Eggs</a></li>
+							<li><a href="../meat_4003.html">Meat</a></li>
+							<li><a href="../fish_8623.html">Fish</a></li>
+						</ul>
+					</li>
+					<li><a href="../Index_5067.html">HOME</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- part_4: main -->
+		<div id="null">
+			<div class="container">
+				<div class="pic">
+					<img src="../img/product_8623/salmon_8623.jpg">
+				</div>
+				<div class="disp">
+					<h1>Salmon</h1>
+					<p>Item #: 60110023</p>
+					<h2>$3.99/LB</h2>
+					<p class="qual">Quantity:</p>
+					<div>
+						<input type="number" id="quan" />
+						<button id="add"  onclick="addQuantity('salmon', this)"> Add </button>
+					</div>
+					<br>
+					<hr />
+					<h2>Product Details</h2>
+					<button id="showmore"> show more... </button>
+					<p>It is rich in a protective antioxidant, astaxanthin, and it is an excellent source of high-quality protein, 
+					   vitamins and minerals (including potassium, selenium and vitamin B12). However, it is the content of omega-3 
+					   fatty acids in salmon that receives the most attention...
+				</div>
+			</div>
+		</div>
+		<!-- part_5: footer -->
+		<footer id="footer">
+			<p>
+				About us | Contact us | Download app
+				<br />
+				Copyright © 2021 - 2025 Food Store All Rights Reserved
+			</p>
+		</footer>
+		<script src = "../shopcart.js"></script>
+	</body>
+</html>
